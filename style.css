@@ -1,0 +1,72 @@
+p{
+    color:blue;
+    font-style: italic;
+    font-size: 20px;
+    font-family: Verdana;
+}
+P:first-letter{
+    font-size: 40px;
+    text-transform: uppercase;
+    color:chocolate;
+}
+#para1 {
+    color: red
+}
+.header{
+    color:seagreen;
+    visibility: hidden;
+    display:none;
+}
+h1{
+    background-color: linen;
+}
+#assignment1{
+    background-color:#def;
+background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
+radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
+background-size:80px 80px;
+background-position:0 0, 40px 40px;
+padding-left: 20%;
+padding-right: 20%;
+}
+.a2:link{
+    color:blue
+}
+.a2:visited{
+    color:blueviolet
+}
+.a2:hover{
+    color: yellow
+}
+.a2:active{
+    color: red;
+}
+#assignment3{
+    font-size: 16px;
+}
+ul{
+    font-size: smaller;
+}
+//How to make all levels to have the same font-size which is slightly smaller (80%) than the root font-size?//
+.level-size{
+    font-size: 80%
+}
+.box4{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(221, 31, 189);
+    margin-right: 20rem;
+}
+.box{
+    border: 50px solid #e74c3c;
+    padding:50px;
+    text-transform: uppercase;
+    width: 50%;
+}
+#assignment5{
+    box-sizing: border-box;
+}
+.content{
+    box-sizing: content-box;
+    border-color: #16a085;
+}
